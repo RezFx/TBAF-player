@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200">
+    <title>the bench atom's fear player</title>
+  </head>
+  <body>
+    <div class="content">
+      <div style="text-align: center;"> <span style="color: #888888;"><span style="font-family: Lato; font-size: 27px; font-weight: bold;">TBAF
+            <span style="color: white;">cloud n</span><span style="color: #3366ff;">e</span><span
+              style="color: white;">in</span></span></span> </div>
+      <div class="image-wrapper">
+        <div class="music-image"> <img src="images/img1.jpg" alt="Music Cover">
+        </div>
+      </div>
+      <div class="music-titles">
+        <p class="name">Song Title</p>
+        <p class="artist"><span style="color: silver;">Artist Name</span></p>
+      </div>
+      <div class="playlist-container">
+        <ul class="playlist-list" id="playlist">
+          <li data-index="1" class="track active"> <span class="track-name">granite</span>
+            <span class="track-artist">TBAF</span> </li>
+          <li data-index="2" class="track"> <span class="track-name">intuition</span>
+            <span class="track-artist">TBAF</span> </li>
+          <li data-index="3" class="track"> <span class="track-name">fallstar</span>
+            <span class="track-artist">TBAF</span> </li>
+          <li data-index="4" class="track"> <span class="track-name">unfair
+              criticism</span> <span class="track-artist">TBAF</span> </li>
+          <li data-index="5" class="track"> <span class="track-name">intentional
+              departure</span> <span class="track-artist">TBAF</span> </li>
+          <li data-index="6" class="track"> <span class="track-name">granite 2</span>
+            <span class="track-artist">TBAF</span> </li>
+          <li data-index="7" class="track"> <span class="track-name">clear
+              explaination</span> <span class="track-artist">TBAF</span> </li>
+          <li data-index="8" class="track"> <span class="track-name">winner's
+              pool</span> <span class="track-artist">TBAF</span> </li>
+          <li data-index="9" class="track"> <span class="track-name">fail</span>
+            <span class="track-artist">TBAF</span> </li>
+        </ul>
+      </div>
+      <div class="progress-details">
+        <div class="progress-bar"> <span></span> </div>
+        <div class="time"> <span class="current">0:00</span> <span class="final">0:00</span>
+        </div>
+      </div>
+      <div class="control-btn"> <span class="material-symbols-rounded" id="repeat">repeat</span>
+        <span class="material-symbols-rounded" id="prev">skip_previous</span>
+        <div class="play-pause"> <span class="material-symbols-rounded">play_arrow</span>
+        </div>
+        <span class="material-symbols-rounded" id="next">skip_next</span> <span
+          class="material-symbols-rounded" id="shuffle">shuffle</span> </div>
+    </div>
+    <audio class="main-song"></audio>
+    <script src="js/script.js"></script>
+  </body>
+</html>
